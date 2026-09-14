@@ -32,6 +32,10 @@ __pycache__/
 venv/
 env/
 
+# ML artifacts and local raw-data references
+ml/artifacts/
+research/ml/artifacts/
+
 # Logs
 *.log
 
