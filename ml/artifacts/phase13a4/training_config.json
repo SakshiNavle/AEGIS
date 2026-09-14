@@ -1,0 +1,31 @@
+{
+  "architecture": "Input(50,7) -> LSTM(32) -> Dense(1,sigmoid)",
+  "window_length": 50,
+  "feature_names": [
+    "delta_t",
+    "rolling_mean_delta_t",
+    "rolling_std_delta_t",
+    "id_frequency_ratio",
+    "payload_hamming_distance",
+    "dlc",
+    "arbitration_id"
+  ],
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "batch_size": 256,
+  "maximum_epochs": 10,
+  "epochs_completed": 3,
+  "seed": 13,
+  "threshold": 0.5,
+  "train_only_preprocessing": true,
+  "train_sequence_count": 5432,
+  "validation_sequence_count": 8800,
+  "training_seconds": 726.3521636000005,
+  "parameter_count": 5153,
+  "tensorflow_version": "2.20.0",
+  "human_approved_dataset_limitation": true,
+  "accepted_exact_train_test_overlap_count": 85,
+  "overlap_handling": "preserved_and_disclosed",
+  "phase13a_manifest_status": "FAILED",
+  "phase13a_recommendation": "BLOCKED_PENDING_DATA_VALIDATION"
+}

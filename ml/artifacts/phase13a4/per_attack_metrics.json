@@ -1,0 +1,95 @@
+{
+  "human_approved_dataset_limitation": true,
+  "accepted_exact_train_test_overlap_count": 85,
+  "overlap_handling": "preserved_and_disclosed",
+  "phase13a_manifest_status": "FAILED",
+  "phase13a_recommendation": "BLOCKED_PENDING_DATA_VALIDATION",
+  "validation": {
+    "DoS": {
+      "count": 355,
+      "threshold": 0.5,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "macro_f1": 0.0,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          355,
+          0
+        ]
+      ],
+      "roc_auc": NaN,
+      "pr_auc": 1.0
+    },
+    "Fuzzing": {
+      "count": 252,
+      "threshold": 0.5,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "macro_f1": 0.0,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          252,
+          0
+        ]
+      ],
+      "roc_auc": NaN,
+      "pr_auc": 0.9999999999999999
+    },
+    "Normal": {
+      "count": 8193,
+      "threshold": 0.5,
+      "accuracy": 1.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          8193,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "roc_auc": NaN,
+      "pr_auc": 0.0
+    }
+  },
+  "test": {
+    "Normal": {
+      "count": 1111,
+      "threshold": 0.5,
+      "accuracy": 1.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          1111,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "roc_auc": NaN,
+      "pr_auc": 0.0
+    }
+  }
+}

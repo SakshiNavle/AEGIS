@@ -1,0 +1,64 @@
+{
+  "human_approved_dataset_limitation": true,
+  "accepted_exact_train_test_overlap_count": 85,
+  "overlap_handling": "preserved_and_disclosed",
+  "phase13a_manifest_status": "FAILED",
+  "phase13a_recommendation": "BLOCKED_PENDING_DATA_VALIDATION",
+  "feature_names": [
+    "delta_t",
+    "rolling_mean_delta_t",
+    "rolling_std_delta_t",
+    "id_frequency_ratio",
+    "payload_hamming_distance",
+    "dlc",
+    "arbitration_id"
+  ],
+  "window_length": 50,
+  "threshold_policy": "fixed_default_0.5; no test threshold tuning",
+  "evaluation_batch_size": 256,
+  "evaluation_storage": "disk_backed_numpy_memmap",
+  "evaluation_streaming": true,
+  "retrained": false,
+  "validation": {
+    "count": 8800,
+    "threshold": 0.5,
+    "accuracy": 0.9310227272727273,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "macro_f1": 0.48213970458424055,
+    "confusion_matrix": [
+      [
+        8193,
+        0
+      ],
+      [
+        607,
+        0
+      ]
+    ],
+    "roc_auc": 0.7394636720260456,
+    "pr_auc": 0.1661084675698084
+  },
+  "test": {
+    "count": 1111,
+    "threshold": 0.5,
+    "accuracy": 1.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1111,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "roc_auc": NaN,
+    "pr_auc": 0.0
+  }
+}

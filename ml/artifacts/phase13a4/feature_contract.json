@@ -1,0 +1,12 @@
+{
+  "feature_names": [
+    "delta_t",
+    "rolling_mean_delta_t",
+    "rolling_std_delta_t",
+    "id_frequency_ratio",
+    "payload_hamming_distance",
+    "dlc",
+    "arbitration_id"
+  ],
+  "count": 7
+}
